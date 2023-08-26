@@ -1,0 +1,23 @@
+{
+  "sh.title": "Selective Hiding",
+  "modmenu.nameTranslation.selective-hiding": "Selective Hiding",
+  "modmenu.description.selective-hiding": "Specify what to hide when you press F1.",
+  "sh.option.toasts": "Toasts",
+  "sh.option.hand": "Hand",
+  "sh.option.blockOutline": "Block Outline",
+  "sh.option.chat": "Chat",
+  "sh.option.hotbar": "Hotbar",
+  "sh.option.crosshair": "Crosshair",
+  "sh.option.bossbar": "Bossbar",
+  "sh.option.statusBars": "Status Bars",
+  "sh.option.mountHealth": "Mounted Entity Health",
+  "sh.option.experienceBar": "Experience Bar",
+  "sh.option.heldItem": "Held Item",
+  "sh.option.overlayMessage": "Action Bar",
+  "sh.option.title": "Title",
+  "sh.option.subtitles": "Subtitles",
+  "sh.option.scoreboardSidebar": "Scoreboard",
+  "sh.option.playerList": "Player List",
+  "sh.option.autosaveIcon": "Autosave Icon",
+  "sh.option.labels": "Name Labels"
+}

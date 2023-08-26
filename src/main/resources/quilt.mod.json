@@ -1,0 +1,46 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "sschr15.mods",
+		"id": "selective-hiding",
+		"version": "${version}",
+		"metadata": {
+			"name": "Selective Hiding",
+			"description": "Allows you to specify what to hide when pressing F1",
+			"contributors": {
+				"sschr15": "Owner"
+			},
+			"contact": {
+				"issues": "https://github.com/sschr15/selective-hiding/issues",
+				"sources": "https://github.com/sschr15/selective-hiding"
+			}
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"modmenu": "sschr15.mods.selectivehiding.SelectiveHidingModMenu"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": "*",
+				"optional": true,
+				"reason": "Add configuration translation support"
+			},
+			{
+				"id": "modmenu",
+				"versions": "*",
+				"optional": true,
+				"reason": "Allow GUI-based configuration"
+			}
+		]
+	},
+	"mixin": "selective-hiding.mixins.json"
+}
